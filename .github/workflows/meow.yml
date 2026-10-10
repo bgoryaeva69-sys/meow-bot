@@ -2,7 +2,8 @@ name: Meow Bot
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    # Раз в сутки в 12:00 UTC (19:00 по Таиланду)
+    - cron: '0 12 * * *'
   workflow_dispatch:
 
 jobs:
